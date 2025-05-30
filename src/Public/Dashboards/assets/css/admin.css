@@ -1,0 +1,30 @@
+.card-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.card-icon {
+  font-size: 1.5rem;
+  padding: 0.75rem;
+  border-radius: 50%;
+}
+
+
+
+#chatWidget {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 300px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  z-index: 1000;
+}
+#chatBox {
+  height: 200px;
+  overflow-y: auto;
+  margin-bottom: 1rem;
+}

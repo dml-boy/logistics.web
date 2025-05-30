@@ -1,0 +1,74 @@
+ body {
+      background: #f8f9fa;
+    }
+
+  
+   
+ main {
+  margin-left: 200px;
+  padding: 2rem 1.5rem;
+}
+
+    .chat-float-btn {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      z-index: 1050;
+      border-radius: 50%;
+    }
+    .chat-widget {
+      position: fixed;
+      bottom: 90px;
+      left: 20px;
+      width: 300px;
+      max-height: 400px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+      overflow: auto;
+      display: none;
+    }
+    #chatBox {
+      background-color: #f8f9fa;
+      font-size: 0.9rem;
+    }
+    .chart-container {
+      width: 100%;
+      max-width: 900px;
+      margin: 20px auto;
+    }
+    .card-stats {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+    }
+    .card-icon {
+      font-size: 1.5rem;
+      padding: 0.75rem;
+      border-radius: 50%;
+    }
+    .table-responsive {
+      margin: 20px 0;
+    }
+
+     /* Mobile responsive  */
+    @media (max-width: 767.98px) {
+      #sidebar {
+        width: 75%;
+        left: auto;
+        right: -75%;
+        transition: right 0.3s ease;
+      }
+      #sidebar.show {
+        right: 0;
+      }
+      main {
+        margin-left: 0 !important;
+      }
+      main.content-blur {
+        filter: blur(2px);
+        pointer-events: none;
+      }
+    }
