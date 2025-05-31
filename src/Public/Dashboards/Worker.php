@@ -86,7 +86,7 @@
 include "./Components/Nav.php";
 ?>
 
-  <main id="mainContent" class="container-fluid">
+  <main id="mainContent" class=" col-md-10 ms-sm-auto px-md-5 py-4">
     <h2 class="mb-4">Welcome, Worker John!</h2>
 
     <div class="row g-3">
